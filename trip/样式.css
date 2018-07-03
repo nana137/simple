@@ -1,0 +1,212 @@
+body{
+    background-color: gainsboro;
+    margin: 0px;
+    padding: 0px;
+    font-size:12px;
+    font-family: 华文行楷;
+}
+#container{
+    margin:0px auto;
+    width:780px;
+    height:600px;
+    text-align:left;
+}
+#banner{
+    margin:0px;
+    padding:0px;
+    background: cornflowerblue;
+    height:150px;
+    width:100%;
+}
+#globallink{
+    margin:0px;
+    padding:0px;
+}
+#globallink ul{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+#globallink ul li{
+    float:left;
+    text-align:center;
+    width:130px;
+}
+#globallink ul li a{
+    display:block;
+    padding:9px 6px 11px 6px;
+    margin:0px;
+    background-color: black;
+}
+#globallink a:link,#globallink a:visited{
+    color: lavender;
+    text-decoration: none;
+}
+#globallink a:hover{
+    color: black;
+    background-color: aliceblue;
+}
+#left{
+    width:200px;
+    background: white;
+    margin:0px;
+    padding:0px 0px 5px 0px;
+    float: left;
+}
+#weather{
+    background:url("图片/天气图标.jpg");
+    margin:-5px 5px 0px 5px;
+}
+#weather h3{
+    font-size: 12px;
+    padding:10px 0px 0px 74px;
+    color: white;
+}
+#weather ul{
+    margin:10px 5px 0px 5px;
+    padding:0px 0px 8px 5px;
+    list-style-type:none;
+}
+#weather ul li{
+    color: white;
+    padding:5px 0px 0px 10px;
+}
+#city h3{
+    color: white;
+    font-size: 12px;
+    padding:4px 0px 2px 5px;
+    margin:5px 0px 5px 0px;
+    background: black;
+}
+#city{
+    color: white;
+    padding:0px 0px 10px 0px;
+    margin:0px 5px;
+}
+#city ul{
+    list-style-type:none;
+    padding:0px;
+    margin: 0px;
+}
+#city ul li{
+    text-align:center;
+    margin:0px;
+}
+#city ul li img {
+    border: 1px solid black;
+    margin: 5px 5px 0px 5px;
+}
+#city ul li a:link,#city ul li a:visited{
+    color: black;
+    text-decoration:none;
+}
+#city ul li a:hover{
+    color: white;
+    background-color: black;
+}
+#middle{
+    width:400px;
+    margin:0px 2px;
+    padding:5px 0px 5px 0px;
+    float:left;
+    background: white;
+}
+#middle div{
+    margin:0px 5px;
+}
+#middle h3{
+    background: black;
+    margin:5px 0px;
+    padding:4px 0px 2px 5px;
+    font-size: 12px;
+    color:white;
+}
+#beauty ul,#route ul{
+    list-style-type:none;
+    margin:8px 1px 0px 1px;
+    padding:0px;
+}
+#beauty ul li{
+    float:left;
+    width:97px;
+    text-align:center;
+}
+#beauty ul li img{
+    border:1px solid black;
+    margin:0px 0px 5px 0px;
+}
+#route{
+    clear: both;
+}
+#route ul li{
+    padding:3px 0px 0px 5px;
+}
+#route ul li a:link,#route ul li a:visited{
+    color: black;
+    text-decoration: none;
+}
+#route ul li a:hover{
+    color: white;
+    background-color: black;
+}
+#right{
+    width:176px;
+    margin:0px;
+    padding:0px 0px 5px 0px;
+    float:left;
+    background-color: white;
+}
+#right div{
+    margin:0px 5px;
+}
+#right div h3{
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    margin:5px 0px 5px 0px;
+    padding:4px 0px 2px 5px;
+}
+#map p{
+    text-align: center;
+    margin: 0px;
+    padding:2px 0px 5px 0px;
+}
+#map p img{
+    border:1px solid black;
+}
+#food ul,#life ul{
+    list-style-type:none;
+    padding:0px;
+    margin:8px 1px 0px 1px;
+}
+#food ul li,#life ul li{
+    padding:3px 0px 0px 5px;
+}
+#food ul li a:link,#food ul li a:visited,#life ul li a:link,#life ul li a:visited{
+    text-decoration: none;
+    color: black;
+}
+#food ul li a:hover,#life ul li a:hover{
+    color: white;
+    background-color: black;
+}
+#footer{
+    background: black;
+    margin:1px 0px 0px 0px;
+    padding:1px 0px;
+    clear:both;
+}
+#footer p{
+    text-align: center;
+    padding:0px;
+    margin: 4px 0px 2px 5px;
+    color: white;
+}
+#footer p a:link,#footer p a:visited{
+    text-decoration: none;
+    color: white;
+}
+#footer p a:hover{
+    color: black;
+    background-color: white;
+}
